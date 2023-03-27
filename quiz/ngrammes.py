@@ -9,4 +9,8 @@ def ngrammes(l, n):
 
 c = "Natacha aime les pommes de terre".split()
 
-ngrammes(c, 2)
+# solution de natacha
+def ngramme(phrase, n):
+    for i in range(len(phrase) - n + 1):
+      
+        print(phrase[i:i+n]) 
